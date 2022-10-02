@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(11, 6, 35);
+    color: rgb(247, 217, 129);
+  }
+
+  h1 {
+    
+   
+    background: -webkit-linear-gradient(45deg, #47d8b6, #9df952 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+  
+  
+  main {
+    border: 1px solid rgb(228, 240, 7);
+    text-align: center;
+    height: 400%;
+  }
+  
+  p {
+    padding: 2rem;
+    text-align: center;
+    font-size: large;
+    color: rgb(132, 88, 147);
+  }
+
+#showbtn {
+    background: transparent;
+    border-color: rgb(231, 56, 103);
+    color: rgb(254, 207, 182);
+    border-radius: 1rem;
+
+}
