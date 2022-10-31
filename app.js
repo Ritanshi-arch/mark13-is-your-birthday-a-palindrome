@@ -1,8 +1,3 @@
-var inputBday = document.querySelector("#birth-date");
-var resultText = document.querySelector("#output-para");
-var checkBtn = document.querySelector("#check-button"); 
-
-
 function reverseStr(str){
     var listOfChars = str.split('');
     var reverseListOfChars =  listOfChars.reverse();
