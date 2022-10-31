@@ -191,12 +191,17 @@ function getPreviousPalindromeDate(date){
     return [ctr, previousDate];
 }
 
-
+var inputBday = document.querySelector("#birth-date");
+var resultText = document.querySelector("#output-para");
+var checkBtn = document.querySelector("#check-button");
 
 function checkBtnClickHandler(e){
     var bdayStr = inputBday.value;
+    if(inputBday.value == 0){
+        resultText.innerText= ("😒  Plz Enter some Value in Input 😒 ")
+      }
 
-    if(inputBday !== ""){
+    else if(inputBday !== ""){
         var listOfDate = bdayStr.split("-");
 
         var date = {
